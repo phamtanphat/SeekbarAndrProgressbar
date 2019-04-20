@@ -19,6 +19,9 @@
 
 
     <ProgressBar
+        android:progressTint="#f20"
+        android:indeterminate="true"
+        style="@android:style/Widget.ProgressBar.Horizontal"
         android:id="@+id/progressBar"
         android:layout_below="@id/seekbar"
         android:layout_width="match_parent"
