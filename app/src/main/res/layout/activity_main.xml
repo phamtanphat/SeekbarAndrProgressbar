@@ -8,9 +8,14 @@
     android:gravity="center">
 
    <SeekBar
+       android:secondaryProgress="30"
+       android:progressTint="#f20"
+       android:secondaryProgressTint="@color/colorPrimaryDark"
        android:id="@+id/seekbar"
        android:layout_width="match_parent"
        android:layout_height="wrap_content" />
+
+
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_below="@id/seekbar"
