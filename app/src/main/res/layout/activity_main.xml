@@ -8,20 +8,15 @@
     android:gravity="center">
 
    <SeekBar
-       android:thumb="@mipmap/ic_launcher"
-       android:indeterminate="true"
-       android:secondaryProgress="30"
-       android:progressTint="#f20"
-       android:secondaryProgressTint="@color/colorPrimaryDark"
+       android:progressTint="@color/colorPrimaryDark"
+       android:secondaryProgressTint="@color/colorAccent"
        android:id="@+id/seekbar"
        android:layout_width="match_parent"
        android:layout_height="wrap_content" />
 
 
     <ProgressBar
-        android:progressTint="#f20"
-        android:indeterminate="true"
-        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:indeterminate="false"
         android:id="@+id/progressBar"
         android:layout_below="@id/seekbar"
         android:layout_width="match_parent"
