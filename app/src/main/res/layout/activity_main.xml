@@ -8,6 +8,8 @@
     android:gravity="center">
 
    <SeekBar
+       android:thumb="@mipmap/ic_launcher"
+       android:indeterminate="true"
        android:secondaryProgress="30"
        android:progressTint="#f20"
        android:secondaryProgressTint="@color/colorPrimaryDark"
